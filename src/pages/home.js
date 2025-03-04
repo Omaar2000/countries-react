@@ -31,6 +31,13 @@ const Home = () => {
       </section>
     );
   }
+  if (isLoading) {
+    return (
+      <section className="h-[calc(100vh-4rem)] dark:text-white text-center text-3xl text-[800] mt-20">
+        {error}
+      </section>
+    );
+  }
 
   return (
     <div className="min-h-[calc(100vh-4rem)] pb-20">

@@ -1,4 +1,4 @@
-import { Button, Card } from "antd";
+import { Card } from "antd";
 import { useTranslation } from "react-i18next";
 import { useNavigate } from "react-router-dom";
 const CountryCard = ({ country }) => {
